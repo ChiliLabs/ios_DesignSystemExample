@@ -1,0 +1,54 @@
+PODS:
+  - BonMot (5.5.1)
+  - Kingfisher (5.13.4):
+    - Kingfisher/Core (= 5.13.4)
+  - Kingfisher/Core (5.13.4)
+  - MagazineLayout (1.6.0)
+  - MXParallaxHeader (1.1.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxFlow (2.8.0):
+    - RxCocoa (>= 5.1.1)
+    - RxSwift (>= 5.1.1)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - BonMot (~> 5.5)
+  - Kingfisher (~> 5.1)
+  - MagazineLayout (~> 1.6)
+  - MXParallaxHeader (~> 1.1)
+  - RxCocoa (~> 5.1)
+  - RxFlow (~> 2.8)
+  - RxSwift (~> 5.1)
+  - SnapKit (~> 4.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BonMot
+    - Kingfisher
+    - MagazineLayout
+    - MXParallaxHeader
+    - RxCocoa
+    - RxFlow
+    - RxRelay
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  BonMot: 0d179476725af81f622a6d9f660f43048070016a
+  Kingfisher: d2279a7abece3c7f25a80cd2b7f363ca5cf3f44c
+  MagazineLayout: 3f6e9268fbdf6fe7519c630e53be5a05aede5957
+  MXParallaxHeader: de3c867e10ba46e8f6e20c8ee1f2a910372b3b94
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxFlow: 41c9d56e7611c6470d00febdfee08b63b0b018f8
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 39322496d0939952340fffbaa8773c5bcd897f8e
+
+COCOAPODS: 1.8.4

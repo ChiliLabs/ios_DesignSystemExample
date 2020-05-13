@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ico_flight_status.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
