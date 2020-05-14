@@ -29,6 +29,16 @@
 		49760BE6246C44C800FEFD61 /* DestinationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49760BE5246C44C800FEFD61 /* DestinationVC.swift */; };
 		49760BE9246C45BD00FEFD61 /* HeaderDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49760BE8246C45BD00FEFD61 /* HeaderDestination.swift */; };
 		49760BEB246C45D500FEFD61 /* HeaderDestination.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49760BEA246C45D500FEFD61 /* HeaderDestination.xib */; };
+		49760BF1246D1F2700FEFD61 /* RowDestinationTitleVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49760BEF246D1F2700FEFD61 /* RowDestinationTitleVM.swift */; };
+		49760BF2246D1F2700FEFD61 /* RowDestinationTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49760BF0246D1F2700FEFD61 /* RowDestinationTitle.swift */; };
+		49760BF6246D1F3100FEFD61 /* HeaderHeadline2VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49760BF4246D1F3100FEFD61 /* HeaderHeadline2VM.swift */; };
+		49760BF7246D1F3100FEFD61 /* HeaderHeadline2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49760BF5246D1F3100FEFD61 /* HeaderHeadline2.swift */; };
+		49760BF9246D1FAD00FEFD61 /* RowDestinationTitle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49760BF8246D1FAD00FEFD61 /* RowDestinationTitle.xib */; };
+		49760BFB246D2A0F00FEFD61 /* DestinationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49760BFA246D2A0F00FEFD61 /* DestinationVM.swift */; };
+		49760BFF246D2C4F00FEFD61 /* RowText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49760BFD246D2C4F00FEFD61 /* RowText.swift */; };
+		49760C00246D2C4F00FEFD61 /* RowTextVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49760BFE246D2C4F00FEFD61 /* RowTextVM.swift */; };
+		49760C04246D2E2000FEFD61 /* CardPhotoThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49760C02246D2E1F00FEFD61 /* CardPhotoThumbnail.swift */; };
+		49760C05246D2E2000FEFD61 /* CardPhotoThumbnailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49760C03246D2E1F00FEFD61 /* CardPhotoThumbnailVM.swift */; };
 		57025306DF211B937B09467A /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9223680A65A94EEE31B7939 /* AppFlow.swift */; };
 		7836C978DD3EF1B13922EA51 /* FlowStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1737C250A31319ABC50B29 /* FlowStep.swift */; };
 		7FE0B7AB2105FF48BF2A460F /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37375CAB15538E0540D15D45 /* Icons.xcassets */; };
@@ -108,6 +118,16 @@
 		49760BE5246C44C800FEFD61 /* DestinationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationVC.swift; sourceTree = "<group>"; };
 		49760BE8246C45BD00FEFD61 /* HeaderDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDestination.swift; sourceTree = "<group>"; };
 		49760BEA246C45D500FEFD61 /* HeaderDestination.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderDestination.xib; sourceTree = "<group>"; };
+		49760BEF246D1F2700FEFD61 /* RowDestinationTitleVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowDestinationTitleVM.swift; sourceTree = "<group>"; };
+		49760BF0246D1F2700FEFD61 /* RowDestinationTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowDestinationTitle.swift; sourceTree = "<group>"; };
+		49760BF4246D1F3100FEFD61 /* HeaderHeadline2VM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderHeadline2VM.swift; sourceTree = "<group>"; };
+		49760BF5246D1F3100FEFD61 /* HeaderHeadline2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderHeadline2.swift; sourceTree = "<group>"; };
+		49760BF8246D1FAD00FEFD61 /* RowDestinationTitle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RowDestinationTitle.xib; sourceTree = "<group>"; };
+		49760BFA246D2A0F00FEFD61 /* DestinationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationVM.swift; sourceTree = "<group>"; };
+		49760BFD246D2C4F00FEFD61 /* RowText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowText.swift; sourceTree = "<group>"; };
+		49760BFE246D2C4F00FEFD61 /* RowTextVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowTextVM.swift; sourceTree = "<group>"; };
+		49760C02246D2E1F00FEFD61 /* CardPhotoThumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPhotoThumbnail.swift; sourceTree = "<group>"; };
+		49760C03246D2E1F00FEFD61 /* CardPhotoThumbnailVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPhotoThumbnailVM.swift; sourceTree = "<group>"; };
 		4C0087911647C97715E4AAE2 /* Pods-DesignSystemExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignSystemExample.debug.xcconfig"; path = "Target Support Files/Pods-DesignSystemExample/Pods-DesignSystemExample.debug.xcconfig"; sourceTree = "<group>"; };
 		57CC472D17DA59D0542A9685 /* Pods_DesignSystemExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignSystemExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59108EA44C86F3235B966D8B /* BaseMagazineLayoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMagazineLayoutVC.swift; sourceTree = "<group>"; };
@@ -197,6 +217,8 @@
 		49760BA7246AC08100FEFD61 /* Rows */ = {
 			isa = PBXGroup;
 			children = (
+				49760BFC246D2C4F00FEFD61 /* RowText */,
+				49760BEE246D1F2700FEFD61 /* RowDestinationTitle */,
 				49760BDD246C312700FEFD61 /* RowFlightInfo */,
 				49760BCC246BEB5000FEFD61 /* RowHorizontalCardsCollection */,
 				49760BC5246BD5D900FEFD61 /* RowCaption */,
@@ -208,6 +230,7 @@
 		49760BA8246AC08B00FEFD61 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				49760C01246D2E1F00FEFD61 /* CardPhotoThumbnail */,
 				49760BD1246BEF3A00FEFD61 /* CardDestination */,
 			);
 			path = Cards;
@@ -276,6 +299,7 @@
 		49760BD6246C261F00FEFD61 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				49760BF3246D1F3100FEFD61 /* Headline2 */,
 				49760BE7246C458D00FEFD61 /* Destination */,
 				49760BD7246C261F00FEFD61 /* SectionTitle */,
 			);
@@ -305,6 +329,7 @@
 			isa = PBXGroup;
 			children = (
 				49760BE5246C44C800FEFD61 /* DestinationVC.swift */,
+				49760BFA246D2A0F00FEFD61 /* DestinationVM.swift */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -316,6 +341,43 @@
 				49760BEA246C45D500FEFD61 /* HeaderDestination.xib */,
 			);
 			path = Destination;
+			sourceTree = "<group>";
+		};
+		49760BEE246D1F2700FEFD61 /* RowDestinationTitle */ = {
+			isa = PBXGroup;
+			children = (
+				49760BEF246D1F2700FEFD61 /* RowDestinationTitleVM.swift */,
+				49760BF0246D1F2700FEFD61 /* RowDestinationTitle.swift */,
+				49760BF8246D1FAD00FEFD61 /* RowDestinationTitle.xib */,
+			);
+			path = RowDestinationTitle;
+			sourceTree = "<group>";
+		};
+		49760BF3246D1F3100FEFD61 /* Headline2 */ = {
+			isa = PBXGroup;
+			children = (
+				49760BF4246D1F3100FEFD61 /* HeaderHeadline2VM.swift */,
+				49760BF5246D1F3100FEFD61 /* HeaderHeadline2.swift */,
+			);
+			path = Headline2;
+			sourceTree = "<group>";
+		};
+		49760BFC246D2C4F00FEFD61 /* RowText */ = {
+			isa = PBXGroup;
+			children = (
+				49760BFD246D2C4F00FEFD61 /* RowText.swift */,
+				49760BFE246D2C4F00FEFD61 /* RowTextVM.swift */,
+			);
+			path = RowText;
+			sourceTree = "<group>";
+		};
+		49760C01246D2E1F00FEFD61 /* CardPhotoThumbnail */ = {
+			isa = PBXGroup;
+			children = (
+				49760C02246D2E1F00FEFD61 /* CardPhotoThumbnail.swift */,
+				49760C03246D2E1F00FEFD61 /* CardPhotoThumbnailVM.swift */,
+			);
+			path = CardPhotoThumbnail;
 			sourceTree = "<group>";
 		};
 		5643B195762F1BDBE100ACB9 /* Flow */ = {
@@ -533,6 +595,7 @@
 				F2E98AA4069B277626889811 /* Main.storyboard in Resources */,
 				49760BE3246C31C200FEFD61 /* RowFlightInfo.xib in Resources */,
 				49760BEB246C45D500FEFD61 /* HeaderDestination.xib in Resources */,
+				49760BF9246D1FAD00FEFD61 /* RowDestinationTitle.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,14 +686,20 @@
 				49760BB8246B0B3900FEFD61 /* RowHeadline1VM.swift in Sources */,
 				49760BBE246BCDA300FEFD61 /* ExploreFlow.swift in Sources */,
 				95DD07E8976969469D3191FA /* AppDelegate.swift in Sources */,
+				49760C05246D2E2000FEFD61 /* CardPhotoThumbnailVM.swift in Sources */,
 				49760BA624699AFF00FEFD61 /* Reusable.swift in Sources */,
 				ABB6B97D199EC99BF1B1867B /* BaseMagazineLayoutVC.swift in Sources */,
+				49760BF7246D1F3100FEFD61 /* HeaderHeadline2.swift in Sources */,
 				49760BC8246BD5D900FEFD61 /* RowCaption.swift in Sources */,
+				49760BF1246D1F2700FEFD61 /* RowDestinationTitleVM.swift in Sources */,
 				04D3491EBF034C557B0624BD /* CellConfigurators.swift in Sources */,
+				49760C00246D2C4F00FEFD61 /* RowTextVM.swift in Sources */,
 				49760BD4246BEF3B00FEFD61 /* CardDestination.swift in Sources */,
+				49760C04246D2E2000FEFD61 /* CardPhotoThumbnail.swift in Sources */,
 				AF3EFA21160AF3257FF42D31 /* CollectionViewCellsRegistrator.swift in Sources */,
 				49760BBC246BCBE100FEFD61 /* ExploreVM.swift in Sources */,
 				839A9D96EB313DD94FA58E22 /* MagazineLayoutSection.swift in Sources */,
+				49760BFB246D2A0F00FEFD61 /* DestinationVM.swift in Sources */,
 				49760BE1246C312700FEFD61 /* RowFlightInfoVM.swift in Sources */,
 				C7113BB953D5AA27AB0C3CD1 /* StepSupportable.swift in Sources */,
 				49760BC1246BCF4700FEFD61 /* Typography.swift in Sources */,
@@ -645,9 +714,12 @@
 				49760BDB246C261F00FEFD61 /* HeaderSectionTitle.swift in Sources */,
 				49760BCF246BEB6400FEFD61 /* CardsHorizontalRowVM.swift in Sources */,
 				49760BDA246C261F00FEFD61 /* HeaderSectionTitleVM.swift in Sources */,
+				49760BF2246D1F2700FEFD61 /* RowDestinationTitle.swift in Sources */,
 				7836C978DD3EF1B13922EA51 /* FlowStep.swift in Sources */,
 				49760BD5246BEF3B00FEFD61 /* CardDestinationVM.swift in Sources */,
+				49760BFF246D2C4F00FEFD61 /* RowText.swift in Sources */,
 				49760BE6246C44C800FEFD61 /* DestinationVC.swift in Sources */,
+				49760BF6246D1F3100FEFD61 /* HeaderHeadline2VM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

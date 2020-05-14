@@ -18,6 +18,10 @@ extension UIColor {
         return UIColor.color(with: "#888888")
     }
 
+    class var placeholder: UIColor {
+        return UIColor.color(with: "#EFEFEF")
+    }
+
     class func color(with hex: String) -> UIColor {
         var hexFormatted: String = hex.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).uppercased()
 

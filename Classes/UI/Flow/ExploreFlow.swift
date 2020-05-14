@@ -46,7 +46,7 @@ final class ExploreFlow: Flow {
     }
 
     private func navigateToPage() -> FlowContributors {
-        let vm = ExploreVM()
+        let vm = DestinationVM()
         let vc = DestinationVC(viewModel: vm)
         self.rootViewController.pushViewController(vc, animated: true)
         return .one(flowContributor: .contribute(withNextPresentable: vc, withNextStepper: vm))

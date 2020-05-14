@@ -38,6 +38,11 @@ enum Typography {
         .font(UIFont.systemFont(ofSize: 22, weight: .semibold))
     )
 
+    static let Text = StringStyle(
+        .font(UIFont.systemFont(ofSize: 15, weight: .regular)),
+        .lineHeightMultiple(1.5)
+    )
+
     static func registerAllStyles() {
         NamedStyles.shared.registerStyle(forName: "Headline1", style: Headline1)
         NamedStyles.shared.registerStyle(forName: "Headline2", style: Headline2)

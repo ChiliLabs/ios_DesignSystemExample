@@ -18,6 +18,7 @@ final class CardDestination: UICollectionViewCell, ConfigurableCell {
         v.contentMode = .scaleAspectFill
         v.layer.cornerRadius = 6
         v.clipsToBounds = true
+        v.backgroundColor = .placeholder
         return v
     }()
 
@@ -61,7 +62,8 @@ final class CardDestination: UICollectionViewCell, ConfigurableCell {
     }
 
     func configure(item: CardDestinationVM) {
-        self.imageView.kf.setImage(with: URL(string: item.imageUrl))
+        self.imageView.kf.setImage(with: URL(string: item.imageUrl),
+                                   options: [.transition(.fade(0.3))])
         self.titleLabel.styledText = item.title
         self.subtitleLabel.styledText = item.subtitle
     }
