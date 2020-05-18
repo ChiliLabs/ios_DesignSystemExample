@@ -1,6 +1,6 @@
 //
 //  BaseMagazineLayoutVC.swift
-//  Spendo
+//  Chili Labs
 //
 //  Created by Igors Nemenonoks on 11/05/2020.
 //  Copyright © 2020 Chili Labs. All rights reserved.
