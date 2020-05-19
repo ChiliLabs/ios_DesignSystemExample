@@ -15,7 +15,7 @@ import SnapKit
 protocol PBaseMagazineLayoutVC: UICollectionViewDelegateMagazineLayout, UICollectionViewDataSource {
     var sections: Binder<[MagazineLayoutSection]> { get }
     var collectionView: UICollectionView { get }
-    func didSelectItem<DataType: Diffable, CellType: ConfigurableCell>() -> Observable<MagazineCellConfigurator<DataType, CellType>>
+    func didSelectItem<DataType: MagazineCellDataType, CellType: ConfigurableCell>() -> Observable<MagazineCellConfigurator<DataType, CellType>>
 }
 
 class BaseMagazineLayoutVC: UIViewController, PBaseMagazineLayoutVC {
@@ -59,7 +59,7 @@ class BaseMagazineLayoutVC: UIViewController, PBaseMagazineLayoutVC {
         }).disposed(by: bag)
     }
 
-    func didSelectItem<DataType: Diffable, CellType: ConfigurableCell>() -> Observable<MagazineCellConfigurator<DataType, CellType>> {
+    func didSelectItem<DataType: MagazineCellDataType, CellType: ConfigurableCell>() -> Observable<MagazineCellConfigurator<DataType, CellType>> {
         return self.selectPublisher
             .filter({ (configurator) -> Bool in
                 return configurator is MagazineCellConfigurator<DataType, CellType>

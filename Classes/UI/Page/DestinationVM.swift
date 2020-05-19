@@ -13,10 +13,7 @@ import RxFlow
 
 final class DestinationVM: SectionedViewModel {
 
-    private let _sections: BehaviorRelay<[MagazineLayoutSection]>
-    var sections: Observable<[MagazineLayoutSection]> {
-        return _sections.asObservable()
-    }
+    @VMProperty([]) var sections: Observable<[MagazineLayoutSection]>
 
     let steps = PublishRelay<Step>()
     private let bag = DisposeBag()
@@ -25,7 +22,7 @@ final class DestinationVM: SectionedViewModel {
         let header1 = HeaderHeadline2VM(title: "Introduction")
         let header2 = HeaderHeadline2VM(title: "Places to see")
 
-        self._sections = BehaviorRelay(value: [
+        $sections.accept([
             MagazineLayoutSection(items: [
                 RowDestinationTitleVM(title: "Indonesia, Bali").configurator()
             ], sectionInset: UIEdgeInsets(top: 0, left: 32, bottom: 16, right: 16)),
